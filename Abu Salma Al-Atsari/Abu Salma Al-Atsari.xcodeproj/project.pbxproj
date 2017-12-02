@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACADB5481FD290960092E7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB5471FD290960092E7DD /* AppDelegate.swift */; };
+		ACADB54A1FD290960092E7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB5491FD290960092E7DD /* ViewController.swift */; };
+		ACADB54D1FD290960092E7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB54B1FD290960092E7DD /* Main.storyboard */; };
+		ACADB54F1FD290960092E7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB54E1FD290960092E7DD /* Assets.xcassets */; };
+		ACADB5521FD290960092E7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB5501FD290960092E7DD /* LaunchScreen.storyboard */; };
+		ACADB55D1FD290960092E7DD /* Abu_Salma_Al_AtsariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB55C1FD290960092E7DD /* Abu_Salma_Al_AtsariTests.swift */; };
+		ACADB5681FD290960092E7DD /* Abu_Salma_Al_AtsariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB5671FD290960092E7DD /* Abu_Salma_Al_AtsariUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACADB5591FD290960092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB53C1FD290960092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB5431FD290960092E7DD;
+			remoteInfo = "Abu Salma Al-Atsari";
+		};
+		ACADB5641FD290960092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB53C1FD290960092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB5431FD290960092E7DD;
+			remoteInfo = "Abu Salma Al-Atsari";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACADB5441FD290960092E7DD /* Abu Salma Al-Atsari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abu Salma Al-Atsari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB5471FD290960092E7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACADB5491FD290960092E7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADB54C1FD290960092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACADB54E1FD290960092E7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACADB5511FD290960092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACADB5531FD290960092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB5581FD290960092E7DD /* Abu Salma Al-AtsariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abu Salma Al-AtsariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB55C1FD290960092E7DD /* Abu_Salma_Al_AtsariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abu_Salma_Al_AtsariTests.swift; sourceTree = "<group>"; };
+		ACADB55E1FD290960092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB5631FD290960092E7DD /* Abu Salma Al-AtsariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abu Salma Al-AtsariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB5671FD290960092E7DD /* Abu_Salma_Al_AtsariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abu_Salma_Al_AtsariUITests.swift; sourceTree = "<group>"; };
+		ACADB5691FD290960092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACADB5411FD290960092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB5551FD290960092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB5601FD290960092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACADB53B1FD290960092E7DD = {
+			isa = PBXGroup;
+			children = (
+				ACADB5461FD290960092E7DD /* Abu Salma Al-Atsari */,
+				ACADB55B1FD290960092E7DD /* Abu Salma Al-AtsariTests */,
+				ACADB5661FD290960092E7DD /* Abu Salma Al-AtsariUITests */,
+				ACADB5451FD290960092E7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACADB5451FD290960092E7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB5441FD290960092E7DD /* Abu Salma Al-Atsari.app */,
+				ACADB5581FD290960092E7DD /* Abu Salma Al-AtsariTests.xctest */,
+				ACADB5631FD290960092E7DD /* Abu Salma Al-AtsariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACADB5461FD290960092E7DD /* Abu Salma Al-Atsari */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB5471FD290960092E7DD /* AppDelegate.swift */,
+				ACADB5491FD290960092E7DD /* ViewController.swift */,
+				ACADB54B1FD290960092E7DD /* Main.storyboard */,
+				ACADB54E1FD290960092E7DD /* Assets.xcassets */,
+				ACADB5501FD290960092E7DD /* LaunchScreen.storyboard */,
+				ACADB5531FD290960092E7DD /* Info.plist */,
+			);
+			path = "Abu Salma Al-Atsari";
+			sourceTree = "<group>";
+		};
+		ACADB55B1FD290960092E7DD /* Abu Salma Al-AtsariTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB55C1FD290960092E7DD /* Abu_Salma_Al_AtsariTests.swift */,
+				ACADB55E1FD290960092E7DD /* Info.plist */,
+			);
+			path = "Abu Salma Al-AtsariTests";
+			sourceTree = "<group>";
+		};
+		ACADB5661FD290960092E7DD /* Abu Salma Al-AtsariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB5671FD290960092E7DD /* Abu_Salma_Al_AtsariUITests.swift */,
+				ACADB5691FD290960092E7DD /* Info.plist */,
+			);
+			path = "Abu Salma Al-AtsariUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACADB5431FD290960092E7DD /* Abu Salma Al-Atsari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB56C1FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-Atsari" */;
+			buildPhases = (
+				ACADB5401FD290960092E7DD /* Sources */,
+				ACADB5411FD290960092E7DD /* Frameworks */,
+				ACADB5421FD290960092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abu Salma Al-Atsari";
+			productName = "Abu Salma Al-Atsari";
+			productReference = ACADB5441FD290960092E7DD /* Abu Salma Al-Atsari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACADB5571FD290960092E7DD /* Abu Salma Al-AtsariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB56F1FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-AtsariTests" */;
+			buildPhases = (
+				ACADB5541FD290960092E7DD /* Sources */,
+				ACADB5551FD290960092E7DD /* Frameworks */,
+				ACADB5561FD290960092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB55A1FD290960092E7DD /* PBXTargetDependency */,
+			);
+			name = "Abu Salma Al-AtsariTests";
+			productName = "Abu Salma Al-AtsariTests";
+			productReference = ACADB5581FD290960092E7DD /* Abu Salma Al-AtsariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACADB5621FD290960092E7DD /* Abu Salma Al-AtsariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB5721FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-AtsariUITests" */;
+			buildPhases = (
+				ACADB55F1FD290960092E7DD /* Sources */,
+				ACADB5601FD290960092E7DD /* Frameworks */,
+				ACADB5611FD290960092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB5651FD290960092E7DD /* PBXTargetDependency */,
+			);
+			name = "Abu Salma Al-AtsariUITests";
+			productName = "Abu Salma Al-AtsariUITests";
+			productReference = ACADB5631FD290960092E7DD /* Abu Salma Al-AtsariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACADB53C1FD290960092E7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					ACADB5431FD290960092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACADB5571FD290960092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB5431FD290960092E7DD;
+					};
+					ACADB5621FD290960092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB5431FD290960092E7DD;
+					};
+				};
+			};
+			buildConfigurationList = ACADB53F1FD290960092E7DD /* Build configuration list for PBXProject "Abu Salma Al-Atsari" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACADB53B1FD290960092E7DD;
+			productRefGroup = ACADB5451FD290960092E7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACADB5431FD290960092E7DD /* Abu Salma Al-Atsari */,
+				ACADB5571FD290960092E7DD /* Abu Salma Al-AtsariTests */,
+				ACADB5621FD290960092E7DD /* Abu Salma Al-AtsariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACADB5421FD290960092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB5521FD290960092E7DD /* LaunchScreen.storyboard in Resources */,
+				ACADB54F1FD290960092E7DD /* Assets.xcassets in Resources */,
+				ACADB54D1FD290960092E7DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB5561FD290960092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB5611FD290960092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACADB5401FD290960092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB54A1FD290960092E7DD /* ViewController.swift in Sources */,
+				ACADB5481FD290960092E7DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB5541FD290960092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB55D1FD290960092E7DD /* Abu_Salma_Al_AtsariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB55F1FD290960092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB5681FD290960092E7DD /* Abu_Salma_Al_AtsariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACADB55A1FD290960092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB5431FD290960092E7DD /* Abu Salma Al-Atsari */;
+			targetProxy = ACADB5591FD290960092E7DD /* PBXContainerItemProxy */;
+		};
+		ACADB5651FD290960092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB5431FD290960092E7DD /* Abu Salma Al-Atsari */;
+			targetProxy = ACADB5641FD290960092E7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACADB54B1FD290960092E7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB54C1FD290960092E7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACADB5501FD290960092E7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB5511FD290960092E7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACADB56A1FD290960092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACADB56B1FD290960092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACADB56D1FD290960092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-Atsari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-Atsari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACADB56E1FD290960092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-Atsari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-Atsari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACADB5701FD290960092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-AtsariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-AtsariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abu Salma Al-Atsari.app/Abu Salma Al-Atsari";
+			};
+			name = Debug;
+		};
+		ACADB5711FD290960092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-AtsariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-AtsariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abu Salma Al-Atsari.app/Abu Salma Al-Atsari";
+			};
+			name = Release;
+		};
+		ACADB5731FD290960092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-AtsariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-AtsariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abu Salma Al-Atsari";
+			};
+			name = Debug;
+		};
+		ACADB5741FD290960092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abu Salma Al-AtsariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abu-Salma-Al-AtsariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abu Salma Al-Atsari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACADB53F1FD290960092E7DD /* Build configuration list for PBXProject "Abu Salma Al-Atsari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB56A1FD290960092E7DD /* Debug */,
+				ACADB56B1FD290960092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB56C1FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-Atsari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB56D1FD290960092E7DD /* Debug */,
+				ACADB56E1FD290960092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB56F1FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-AtsariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB5701FD290960092E7DD /* Debug */,
+				ACADB5711FD290960092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB5721FD290960092E7DD /* Build configuration list for PBXNativeTarget "Abu Salma Al-AtsariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB5731FD290960092E7DD /* Debug */,
+				ACADB5741FD290960092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACADB53C1FD290960092E7DD /* Project object */;
+}
